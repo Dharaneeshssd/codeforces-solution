@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	string s1;
+	cin>>s1;
+	set<char> s;
+	for (auto x:s1){
+	    s.insert(x);
+	}
+	int l=s.size();
+	if (l%2==0)
+	cout<<"CHAT WITH HER!";
+	else
+	cout<<"IGNORE HIM!";
+	return 0;
+	
+}
