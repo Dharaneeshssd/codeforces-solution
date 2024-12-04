@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+ 
+int main(){
+    int n;
+    cin>>n;
+    for (int i=0;i<n;i++){
+        string temp;
+        cin>>temp;
+        int s=temp.size();
+        if (s>10){
+            int t=s-2;
+            cout<<temp[0]+to_string(t)+temp[s-1];
+        }
+        else
+        cout<<temp;
+        
+        cout<<"\n";
+    }
+    return 0;
+}
