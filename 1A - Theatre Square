@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    long long int n1,n2,n3;
+    cin>>n1>>n2>>n3;
+    long long int c1=ceil((double)n1/n3);
+    long long int c2=ceil((double)n2/n3);
+    cout<<c1*c2;
+    return 0;
+}
