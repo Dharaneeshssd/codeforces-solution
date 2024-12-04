@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	long long int n1,n2,n3;
+	cin>>n1>>n2>>n3;
+	long long int n=n1+(n3-1)*n1;
+	long long int t=((n3)*(n1+n))/2;
+	long long int s=t-n2;
+	if (s<0)
+	cout<<0;
+	else
+	cout<<s;
+	return 0;
+}
